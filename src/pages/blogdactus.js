@@ -1,8 +1,8 @@
 import React from "react"
 import PageTemplate from "../components/pageTemplate"
 
-let About = () => (
-  <PageTemplate title="About Us">
+let Blogdactus = () => (
+  <PageTemplate title="Blog d'actus">
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
       eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,
@@ -39,4 +39,4 @@ let About = () => (
   </PageTemplate>
 )
 
-export default About
+export default Blogdactus

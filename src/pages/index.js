@@ -32,7 +32,7 @@ let Service = ({ title, Icon = FaHome }) => (
 
 let Index = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Accueil" />
     <Slider />
     <Container className="pt-4">
       <div className="text-center">
@@ -45,9 +45,9 @@ let Index = () => (
     <Container className="py-5">
       <h2 className="text-center mb-4">Services</h2>
       <Row>
-        <Service title="Websites" />
-        <Service title="SEO" Icon={FaBolt} />
-        <Service title="API" Icon={FaWrench} />
+        <Service title="Audits énergétiques" />
+        <Service title="Dimensionnement de géothermie" Icon={FaBolt} />
+        <Service title="Suivi des travaux de A à Z" Icon={FaWrench} />
       </Row>
     </Container>
     <div className="text-center py-5">

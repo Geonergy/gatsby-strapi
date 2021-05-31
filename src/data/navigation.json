@@ -1,18 +1,15 @@
 [
-  { "name": "Home", "url": "/" },
-  { "name": "About", "url": "/about" },
+  { "name": "Accueil", "url": "/" },
+  { "name": "Qui sommes-nous ?", "url": "/quisommesnous" },
+  { "name": "Nos services", "url": "/nosservices" },
+  { "name": "Nos projets", "url": "/nosprojets" },
   {
-    "name": "Options",
+    "name": "Blogs",
     "url": "",
     "dropdownItems": [
-      { "name": "Option 1", "url": "/test" },
-      { "name": "Option 2", "url": "/test" },
-      { "name": "Reset", "url": "/test" }
+      { "name": "Blog d'actus", "url": "/blogdactus" },
+      { "name": "Blog pédagogique", "url": "/blogpedagogique" }
     ]
-  },
-  {
-    "name": "GitHub",
-    "url": "https://github.com/jeremylynch/gatsby-strapi-starter"
   },
   { "name": "Contact", "url": "/contact" }
 ]
