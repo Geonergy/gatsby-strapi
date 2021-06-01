@@ -1,3 +1,4 @@
+//PIED DE PAGE
 import React from "react"
 import { Container, Row, Col } from "reactstrap"
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa"
@@ -7,13 +8,13 @@ import footerItems from "../data/footer.json"
 
 const FooterStyling = styled.footer`
   padding: 3rem 0;
-  background: #f8f9fa;
+  background: #048B9A; // COULEUR FOND PIED DE PAGE
   a,
   a:hover {
     color: inherit;
   }
   ul {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 1); //COULEUR PETIT TEXTE
     -webkit-padding-start: 0;
     padding: 0;
     & > li {

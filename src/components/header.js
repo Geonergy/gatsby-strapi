@@ -18,7 +18,7 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen)
 
   return (
-    <StyledNavbar color="light" light expand="md">
+    <StyledNavbar color="transparent" light expand="md">
       <Container>
         <Link to="/" className="navbar-brand">
           <Logo/>

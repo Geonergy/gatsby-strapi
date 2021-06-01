@@ -4,7 +4,7 @@ import {FaStar} from 'react-icons/fa'
 import styled from 'styled-components'
 
 let Background = styled.div`
-  background: linear-gradient(to bottom, #f9fbfd 0, #fff 100%);
+  background: linear-gradient(to bottom, #FFFFF0 0, #FFFFF0 100%);
 `
 
 let Testimonial = ({stars = 5, content}) => (
