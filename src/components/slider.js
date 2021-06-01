@@ -7,7 +7,7 @@ import "../../node_modules/slick-carousel/slick/slick.css"
 import "../../node_modules/slick-carousel/slick/slick-theme.css"
 
 const SliderContainer = styled.div`
-  background: linear-gradient(210deg, #01565E 0%, #048B9A 40.13%, #88D5A9 90%);
+  background: linear-gradient(210deg, #01565E 0%, #048B9A 40.13%, #88D5A9 70%);
   color: white;
   padding: 10rem 0;
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
