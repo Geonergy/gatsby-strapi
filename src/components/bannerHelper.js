@@ -5,10 +5,10 @@ import NumberFormat from "react-number-format"
 
 let StyledLink = styled((props) => <Link {...props} />)`
   color: black;
-  &:hover {
-    color: black;
-  }
-`
+    &:hover {
+      color: black;
+    }
+  `
 
 const HeaderItem = ({ text, title, Icon, url, klass, type }) => (
   <div className={klass + " align-items-center flex mr-3"}>

@@ -49,18 +49,18 @@ let HomeFeatures = () => {
     <Container className="py-5">
       <Row>
         <Feature
-          title="Lorem Ipsum"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          title="Minerais en Europe"
+          description="Aaaaah j'ai oublié de réviser lol. Je suis là juste pour les quotas bye."
           img={data.slide1.childImageSharp.fluid}
         />
         <Feature
-          title="Social Media"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          title="Chauffage au bois"
+          description="Petit sourire en coin. Le mur m'a raconté une blague. J'aime le mauve."
           img={data.slide2.childImageSharp.fluid}
         />
         <Feature
-          title="Digital Technology"
-          description="Eu lobortis elementum nibh tellus molestie nunc non blandit massa. Sit amet consectetur adipiscing elit duis."
+          title="Développement durable"
+          description="Lolilol je suis gogol. J'aime le jaune."
           img={data.slide3.childImageSharp.fluid}
         />
       </Row>

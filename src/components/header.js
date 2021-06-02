@@ -11,14 +11,14 @@ let StyledNavbar = styled((props) => <Navbar {...props} />)`
   top: 0;
   z-index: 10;
 `
-
+// COULEUR DU SECOND BANDEAU : light, dark, transparent
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false)
 
   const toggle = () => setIsOpen(!isOpen)
 
   return (
-    <StyledNavbar color="light" light expand="md">
+    <StyledNavbar color="white" light expand="md"> 
       <Container>
         <Link to="/" className="navbar-brand">
           <Logo/>
