@@ -16,7 +16,7 @@ import HomeFeatures from "../components/homeFeatures"
 import Testimonials from '../components/testimonials'
 
 let StyledBackground = styled.div`
-  background: linear-gradient(to bottom, #f9fbfd 0, #fff 100%);
+  background: linear-gradient(to bottom, #ffffff 0, #ffffff 100%);
 `
 
 let Service = ({ title, Icon = FaHome }) => (
