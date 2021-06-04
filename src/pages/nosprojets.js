@@ -1,13 +1,18 @@
 import React from "react"
 import PageTemplate from "../components/pageTemplate"
 import { Container, Row, Col } from "reactstrap"
-import { FaGithub, FaBolt, FaHome, FaWrench } from "react-icons/fa"
+import { FaHardHat, FaGraduationCap } from "react-icons/fa"
 import Link from "../components/link"
 import Box from "../components/box"
 
 
-// DEFINITION DU COMPONENT SERVICE
-let Service = ({ title, Icon = FaHome }) => (
+// DEBUT DEFINITION DU COMPONENT PROJET
+//  a importer avec :
+//   { Container, Row, Col }
+//   { FaHardHat, FaGraduationCap }
+//   Link
+//   Box
+let Projet = ({ title, Icon = FaGraduationCap }) => (
   <Col xs={12} md={4} className="mb-3">
     <Link to="/">
       <Box>
@@ -17,15 +22,21 @@ let Service = ({ title, Icon = FaHome }) => (
     </Link>
   </Col>
 )
+// xs = width
+// md = ?
+// FIN DEFINITION DU COMPONENT PROJET
+
 
 let Projets = () => (
   <PageTemplate title="Nos projets">
     <Container className="py-5">
-      <h2 className="text-center mb-4">Services</h2>
       <Row>
-        <Service title="Audits énergétiques" />
-        <Service title="Dimensionnement de géothermie" Icon={FaBolt} />
-        <Service title="Suivi des travaux de A à Z" Icon={FaWrench} />
+        <Projet title="Projets de recherche" />
+      </Row>
+    </Container>
+    <Container className="py-5">
+      <Row>
+        <Projet title="Projets d'installation géothermique" Icon={FaHardHat} />
       </Row>
     </Container>
     <p>
