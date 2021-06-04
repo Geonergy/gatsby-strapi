@@ -1,7 +1,7 @@
 import React from "react"
 import PageTemplate from "../components/pageTemplate"
 import { Container, Row, Col } from "reactstrap"
-import { FaHardHat, FaGraduationCap } from "react-icons/fa"
+import { FaGraduationCap } from "react-icons/fa"
 import Link from "../components/link"
 import Box from "../components/box"
 
@@ -12,9 +12,9 @@ import Box from "../components/box"
 //   { FaHardHat, FaGraduationCap }
 //   Link
 //   Box
-let ProjetRecherche = ({ title, Icon = FaGraduationCap }) => (
+let ProjetSGV = ({ title, Icon = FaGraduationCap }) => (
   <Col xs={12} md={4} className="mb-3">
-    <Link to="/projetsrecherche">
+    <Link to="/optimosgv">
       <Box>
         <Icon size={30} />
         <h4 className="mt-3">{title}</h4>
@@ -22,9 +22,9 @@ let ProjetRecherche = ({ title, Icon = FaGraduationCap }) => (
     </Link>
   </Col>
 )
-let ProjetGeothermique = ({ title, Icon = FaGraduationCap }) => (
+let ProjetPuissance = ({ title, Icon = FaGraduationCap }) => (
   <Col xs={12} md={4} className="mb-3">
-    <Link to="/projetsgeothermique">
+    <Link to="/optipuissance">
       <Box>
         <Icon size={30} />
         <h4 className="mt-3">{title}</h4>
@@ -38,15 +38,15 @@ let ProjetGeothermique = ({ title, Icon = FaGraduationCap }) => (
 
 
 let Projets = () => (
-  <PageTemplate title="Nos projets">
+  <PageTemplate title="Projets de recherche">
     <Container className="py-5">
       <Row>
-        <ProjetRecherche title="Projets de recherche" />
+        <ProjetSGV title="OptiMoSGV" />
       </Row>
     </Container>
     <Container className="py-5">
       <Row>
-        <ProjetGeothermique title="Projets d'installation géothermique" Icon={FaHardHat} />
+        <ProjetPuissance title="OptiPuissance"/>
       </Row>
     </Container>
     <p>

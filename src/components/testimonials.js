@@ -13,19 +13,19 @@ let Testimonial = ({stars = 5, content}) => (
       <FaStar className="mr-1" color="#ec9a3c"/>
     ))}
     <p className="mt-3">{content}</p>
-    <h6 className="font-weight-bold mb-0">Bruce Wayne</h6>
-    <small className="text-secondary">CEO</small>
+    <h6 className="font-weight-bold mb-0">Bruno Mars</h6>
+    <small className="text-secondary">Client satisfait</small>
   </Col>
 )
 
 export default () => (
   <Background>
     <Container className="py-5">
-      <h3 className="text-center mb-5">Testimonials</h3>
+      <h3 className="text-center mb-5">Témoignages</h3>
       <Row>
-        <Testimonial content="Fastly provides development teams an open source frontend framework for creating rich, optimized websites and a cloud platform for delivering them on a blazing fast edge network."/>
-        <Testimonial content="Fastly is blazing fast for browsing the web! I highly recommend this product for creating your next static website."/>
-        <Testimonial content="Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit."/>
+        <Testimonial content="Geonergy a réalisé un travail de qualité, et j'ai apprécié leur contact vraiment humain ! Ils ont installé dans ma maison de 200 m² une pompe à chaleur géothermique, et dans mon jardin deux sondes de chacune 150 m de profondeur. Grâce à eux je comprends comment je me chauffe !"/>
+        <Testimonial content="Merci à Geonergy pour leur suivi de qualité lors des travaux d'installation géothermique dans mon logement. J'ai entièrement confiance en eux pour la pérennité de mon installation."/>
+        <Testimonial content="Je recommande vivement cette équipe jeune et dynamique, qui montre à la fois une expertise dans leur domaine et une ouverture d'esprit. J'ai grâce à eux renouvelé l'isolation de ma maison et installé de la géothermie verticale, je suis complètement satisfaite de cette réalisation."/>
       </Row>
     </Container>
   </Background>
