@@ -12,25 +12,45 @@ import Box from "../components/box"
 //   { FaHardHat, FaGraduationCap }
 //   Link
 //   Box
-let ProjetSGV = ({ title, Icon = FaGraduationCap }) => (
-  <Col xs={12} md={4} className="mb-3">
-    <Link to="/optimosgv">
+let ProjetOptiMoSGV = ({ title, Icon = FaGraduationCap }) => (
+  <Link to="/optimosgv">
       <Box>
         <Icon size={30} />
         <h4 className="mt-3">{title}</h4>
       </Box>
     </Link>
-  </Col>
+)
+let ProjetSondeTest = ({ title, Icon = FaGraduationCap }) => (
+  <Link to="/sondetest">
+      <Box>
+        <Icon size={30} />
+        <h4 className="mt-3">{title}</h4>
+      </Box>
+    </Link>
+)
+let ProjetDemonstrateur = ({ title, Icon = FaGraduationCap }) => (
+  <Link to="/demonstrateur">
+      <Box>
+        <Icon size={30} />
+        <h4 className="mt-3">{title}</h4>
+      </Box>
+    </Link>
+)
+let ProjetGeogiciel = ({ title, Icon = FaGraduationCap }) => (
+  <Link to="/geogiciel">
+      <Box>
+        <Icon size={30} />
+        <h4 className="mt-3">{title}</h4>
+      </Box>
+    </Link>
 )
 let ProjetPuissance = ({ title, Icon = FaGraduationCap }) => (
-  <Col xs={12} md={4} className="mb-3">
-    <Link to="/optipuissance">
+  <Link to="/optipuissance">
       <Box>
         <Icon size={30} />
         <h4 className="mt-3">{title}</h4>
       </Box>
     </Link>
-  </Col>
 )
 // xs = width
 // md = ?
@@ -40,14 +60,19 @@ let ProjetPuissance = ({ title, Icon = FaGraduationCap }) => (
 let Projets = () => (
   <PageTemplate title="Projets de recherche">
     <Container className="py-5">
-      <Row>
-        <ProjetSGV title="OptiMoSGV" />
-      </Row>
+        <ProjetOptiMoSGV title="OptiMoSGV" />
     </Container>
     <Container className="py-5">
-      <Row>
+        <ProjetSondeTest title="Sonde Test" />
+    </Container>
+    <Container className="py-5">
+        <ProjetDemonstrateur title="Démonstrateur" />
+    </Container>
+    <Container className="py-5">
+        <ProjetGeogiciel title="Geogiciel" />
+    </Container>
+    <Container className="py-5">
         <ProjetPuissance title="OptiPuissance"/>
-      </Row>
     </Container>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
