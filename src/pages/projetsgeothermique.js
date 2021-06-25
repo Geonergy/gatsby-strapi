@@ -28,7 +28,7 @@ let Projet1 = ({ title, Icon = FaHardHat }) => (
 
 
 let Projets = () => (
-  <PageTemplate title="Projets d'installation géothermique">
+  <PageTemplate title="Réalisations de géothermie">
     <Container className="py-5">
       <Row>
         <Projet1 title="Projet n°1 - Isère" />

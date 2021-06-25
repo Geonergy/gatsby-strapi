@@ -2,7 +2,7 @@ import React from "react"
 import PageTemplate from "../components/pageTemplate"
 
 let Projets = () => (
-  <PageTemplate title="OptiPuissance">
+  <PageTemplate title="Sonde-Test">
    <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
       eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,

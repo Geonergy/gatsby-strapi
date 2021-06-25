@@ -58,7 +58,7 @@ let ProjetPuissance = ({ title, Icon = FaGraduationCap }) => (
 
 
 let Projets = () => (
-  <PageTemplate title="Projets de recherche">
+  <PageTemplate title="Projet de recherche">
     <Container className="py-5">
         <ProjetOptiMoSGV title="OptiMoSGV" />
     </Container>
