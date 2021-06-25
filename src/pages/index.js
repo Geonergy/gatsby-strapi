@@ -18,7 +18,7 @@ import Testimonials from '../components/testimonials'
 let StyledBackground = styled.div`
   background: linear-gradient(to bottom, #ffffff 0, #ffffff 100%);
 `
-
+// DEFINITION DU COMPONENT SERVICE
 let Service = ({ title, Icon = FaHome }) => (
   <Col xs={12} md={4} className="mb-3">
     <Link to="/">
@@ -29,6 +29,16 @@ let Service = ({ title, Icon = FaHome }) => (
     </Link>
   </Col>
 )
+
+// COMPOSITION DU RESTE DE LA PAGE :
+//  SLIDER
+//  PHRASE
+//  SERVICES
+//  BOUTON
+//  IMAGE 3D
+//  FORMULAIRE
+//  IMAGES AVEC DESCRIPTION
+//  TEMOIGNAGES
 
 let Index = () => (
   <Layout>

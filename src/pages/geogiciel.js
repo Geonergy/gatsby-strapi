@@ -1,50 +1,9 @@
 import React from "react"
 import PageTemplate from "../components/pageTemplate"
-import { Container, Row, Col } from "reactstrap"
-import { FaHardHat, FaGraduationCap } from "react-icons/fa"
-import Link from "../components/link"
-import Box from "../components/box"
-
-
-// DEBUT DEFINITION DU COMPONENT PROJET
-//  a importer avec :
-//   { Container, Row, Col }
-//   { FaHardHat, FaGraduationCap }
-//   Link
-//   Box
-let ProjetRecherche = ({ title, Icon = FaGraduationCap }) => (
-  <Link to="/projetsrecherche">
-      <Box>
-        <Icon size={30} />
-        <h4 className="mt-3">{title}</h4>
-      </Box>
-  </Link>
-  
-)
-
-let ProjetGeothermique = ({ title, Icon = FaHardHat }) => (
-  <Link to="/projetsgeothermique">
-      <Box>
-        <Icon size={30} />
-        <h4 className="mt-3">{title}</h4>
-      </Box>
-  </Link>
-  
-)
-// xs = width
-// md = ?
-// FIN DEFINITION DU COMPONENT PROJET
-
 
 let Projets = () => (
-  <PageTemplate title="Nos projets">
-    <Container className="py-5">
-        <ProjetRecherche title="Projets de recherche" />
-    </Container>
-    <Container className="py-5">
-        <ProjetGeothermique title="Projets d'installation géothermique"/>
-      </Container>
-    <p>
+  <PageTemplate title="OptiPuissance">
+   <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
       eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,
       ornare blandit justo. Integer in cursus justo, vel aliquam ex. Etiam
