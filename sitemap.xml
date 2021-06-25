@@ -3,8 +3,16 @@
 <url> <loc>https://gatsby-strapi-starter.netlify.com/blogdactus/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-strapi-starter.netlify.com/blogpedagogique/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-strapi-starter.netlify.com/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/demonstrateur/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/geogiciel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-strapi-starter.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-strapi-starter.netlify.com/nosprojets/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-strapi-starter.netlify.com/nosservices/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/optimosgv/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/optipuissance/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/projet1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/projetsgeothermique/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/projetsrecherche/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://gatsby-strapi-starter.netlify.com/quisommesnous/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://gatsby-strapi-starter.netlify.com/sondetest/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
