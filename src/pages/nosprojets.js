@@ -4,14 +4,9 @@ import { Container, Row, Col } from "reactstrap"
 import { FaHardHat, FaGraduationCap } from "react-icons/fa"
 import Link from "../components/link"
 import Box from "../components/box"
+import styled from "styled-components"
 
 
-// DEBUT DEFINITION DU COMPONENT PROJET
-//  a importer avec :
-//   { Container, Row, Col }
-//   { FaHardHat, FaGraduationCap }
-//   Link
-//   Box
 let ProjetRecherche = ({ title, Icon = FaGraduationCap }) => (
   <Link to="/projetsrecherche">
       <Box>
@@ -25,25 +20,25 @@ let ProjetRecherche = ({ title, Icon = FaGraduationCap }) => (
 let ProjetGeothermique = ({ title, Icon = FaHardHat }) => (
   <Link to="/projetsgeothermique">
       <Box>
-        <Icon size={30} />
-        <h4 className="mt-3">{title}</h4>
+          <Icon size={30} />
+          <h4 className="mt-3">{title}</h4>
       </Box>
   </Link>
   
 )
-// xs = width
-// md = ?
-// FIN DEFINITION DU COMPONENT PROJET
 
 
 let Projets = () => (
-  <PageTemplate title="Nos projets">
-    <Container className="py-5">
-        <ProjetRecherche title="Projets de recherche" />
-    </Container>
-    <Container className="py-5">
-        <ProjetGeothermique title="Projets d'installation géothermique"/>
+  <PageTemplate title="Projets">
+    
+      <Container className="py-5">
+        <ProjetRecherche title="PROJETS DE RECHERCHE" />
       </Container>
+
+      <Container className="py-5">
+          <ProjetGeothermique title="REALISATIONS DE GEOTHERMIE"/>
+      </Container>
+    
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo erat
       eu viverra mollis. Quisque tellus ante, commodo nec tellus sit amet,

@@ -72,7 +72,7 @@ h1 {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  
   .text-muted {
     color: #048B9A;
   }
@@ -81,4 +81,9 @@ p {
 .bg-primary-faded {
   background-color: rgba(red($primary), green($primary), blue($primary), 0.2);
   color: $primary;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  color : #048B9A;
 }
